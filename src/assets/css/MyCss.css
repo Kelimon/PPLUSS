@@ -1,0 +1,24 @@
+/* In deiner CSS-Datei */
+.img-blend {
+    mix-blend-mode: multiply; /* oder eine andere passende Blend-Modus-Eigenschaft */
+  }
+/* In deiner CSS-Datei */
+.gradient-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(70, 130, 180, 0.5)); /* Anpassen an die Hintergrundfarbe deiner Website */
+  }
+    
+  .soft-edge-image {
+    box-shadow: 0 0 8px 8px #ffffff; /* Weicher weißer Schatten, passe die Farbe an deine Hintergrundfarbe an */
+    border-radius: 10px; /* Optional, für abgerundete Ecken */
+  }
+  
+  .blurred-edge-image {
+    filter: blur(8px); /* Die Pixelanzahl kann angepasst werden, um den gewünschten Weichzeichnungsgrad zu erreichen */
+  }
+  
+  
